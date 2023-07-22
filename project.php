@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> portfolio $>_ project </title>
+</head>
+<body>
+<div class="header">
+        <div class="main">
+            <div class="logo">
+                <a href="index.php"><img src="./img/Hero.png" alt="logo"></a>
+            </div>
+        </div>
+        <div class="nav">
+                <ul>
+                    <li>
+                        <a href="index.php">home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="project.php">project</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="testimonial.php">testimonial</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="about.php">about</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="project">
+        <div class="header_title">
+            <h1>project</h1>
+            <div class="dot"></div>
+            <div class="search">
+                <p>Category : 
+                <button class="HTML" onClick="ALL()">ALL</button>
+                <button class="HTML" onClick="HTML()">HTML</button>
+                <button class="CSS" onClick="CSS()">CSS</button>
+                <button class="JAVASCRIPT" onClick="JS()">JAVASCRIPT</button>
+                <button class="PHP" onClick="PHP()">PHP</button></p> 
+            </div>
+        </div>
+    </div>
+    <div class="my_Project">
+        <div class="project_Box" id="HTML">
+            <div class="title">
+                <p>Ecommerce</p>
+            </div>
+            <div class="img">
+                <img src="./img/Ecommerce.png" alt="Ecommerce">
+            </div>
+            <div class="button">
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="CSS" >
+        <div class="title">
+                <p>QuizLet</p>
+            </div>
+            <div class="img">
+                <img src="./img/Quizlet.png" alt="Quizlet">
+            </div>
+            
+            <div class="button">
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="JAVASCRIPT">
+        <div class="title">
+                <p>Currency</p>
+            </div>
+            <div class="img">
+                <img src="./img/CurrencyConverter.png" alt="CurrencyConverter">
+            </div>
+            <div class="button"> 
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="covidTracker">
+        <div class="title">
+                <p>Covid Tracker</p>
+            </div>
+            <div class="img">
+                <img src="./img/Covid.png" alt="CovidTracker">
+            </div>
+            <div class="button">
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="generator">
+        <div class="title">
+                <p>Generator</p>
+            </div>
+            <div class="img">
+                <img src="./img/Generator.png" alt="CurrencyConverter">
+            </div>
+            <div class="button">
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="system">
+        <div class="title">
+                <p>System Student</p>
+            </div>
+            <div class="img">
+                <img src="./img/SystemStudent.png" alt="SystemStudent">
+            </div>
+            <div class="button">
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="Tracking">
+        <div class="title">
+                <p>System Tracking</p>
+            </div>
+            <div class="img">
+                <img src="./img/Track.png" alt="Tracking">
+            </div>
+            <div class="button">
+            <a href="https://project-task-example.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="UpperCase">
+        <div class="title">
+                <p>lowercase to UpperCase</p>
+            </div>
+            <div class="img">
+                <img src="./img/UpperCase.png" alt="UpperCase">
+            </div>
+            <div class="button">
+            <a href="https://research-text-uppercase.netlify.app/" target="_blank">VIEW</a>
+            </div>
+        </div>
+        <div class="project_Box" id="Starbucks">
+        <div class="title">
+                <p>Starbucks</p>
+            </div>
+            <div class="img">
+                <img src="./img/starbucks.png" alt="Starbucks">
+            </div>
+            <div class="button">
+            <a href="https://research-text-uppercase.netlify.app/" target="_blank">VIEW</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>
